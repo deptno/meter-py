@@ -10,7 +10,6 @@
   "author": "deptno@gmail.com",
   "license": "MIT",
   "scripts": {
-    "prepublish": "tsc",
     "test": "jest"
   },
   "devDependencies": {
