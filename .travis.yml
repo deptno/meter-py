@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '7'
+cache:
+  yarn: true
+  directories:
+  - node_modules
+notifications:
+  email: false
+  slack:
+    secure: F4U6XbNyYmtOuyEPaDxXeCQtdSkRon7jLd3XHMJFIV9s4nAlflsJjEBh4Mg/jEx6nMMns5wGmSQhMX0MPWjS4sf7s6MCB399l7+zWp/Jj1ln3fhRGgrMj22Vm141fKy83B8av3Dr/XmaaGeZkirM5efMHsKE1PNfYeV8WYdb4pyFKsYF64Bg9pSUhqQ0dWRHTu5wuE5WhuNAqGte3fDFUFXejvB+UGV7jh+n9w+MMli43sKxBTRs4rTgQyKr45quu1HA6p+SY2eYhgRNTFHWDtqzynxjo4+0ezHNobI0yWwtcQE3jFUzObombpKJFRsNrBHehuWDpo8PyOxrNElgYI1t4j85bRAEUzXNpO/MAjyejOA3fQ7msVlSSXxrh9E9UYm8cSjh4tli7/fqNtt0ShYFNy0qIC7DPPHMqblEwSXGXsLw6r0+yFlKqzK7T4iDMBShqx84YadgdFvK4k8xhtaUJBm2tjBNVi/C/+pEH4K+Rbsy2TIZM8x+WelogOk8NKBk2/RqQMeXaEGnSliWpgMAz9h0bCgPiwwDyL/aB8lLJND/0eYCZggZ6E6T57Z/yTmH17C0+uu8wlDoDebK1+U+n/6Pfh0h7VR8EUK6VnYJVv22rK3ulxQCScuYj/Nxrfp5xQSOGFFg48Qaotmxo1ikNX/l3hIZl3DOskL/bvQ=
+deploy:
+  provider: npm
+  email: deptno@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: I4iJ72PxA3hUu41vOSd0oviT1Kx7rjMHrU4eSSaR9FOhCpS4wIFGMH49GyO+mIu/rOgmbVgCNIr2IkDTH/doQQCAD/Lr5gUXQWkL69+Z5i1F+nDEZ8SSvQ5r99rTsmOzGrm6/ddwTf+ikl6dfzAqrurJzhgRma9PRV32S35cFoBz2r/oo4PGA2nxsbnL6OlYRmGL3C8zaX4+Kw5Fpb5U99E5/fHThEA6gCiwxp4ppkkb+uQASQn/XEece3yqzgML8q/3xVH0jsdtb+wU6SZfA5qe2kqjaMZmAMWZiL0iGXRoAZmmRgW10G7+jDqeCxjtuzhUa3DftP6fkThoOywM2REgSxOHhxPTCf6PyrNvRZ4oZgupCumhTDInPjKoqL1Gnya25JQpjY/VYDx3ATK9xPwDYa2YAqsFIhQRtST6u4m+dR4BtivSK69Ww7ojAW7Hg8mw0UWQqK1Yc3MwZwTEbqoci6pFeBns+S+v5vNT6K4HYK+Uq0Ka8VvotnQvWrp4eOxrox8Qigm0mMgnqUnnWtzZPSmzDnx7ah4oc7aw3WPKKGCscwg0s8i1D0Z1E9ZLYDv1S+wWDPU8qQv2I01+Dl7pFTFMt7OppND8tkZfHQbJRlBxLfp3o3oy++7F8xmdYBOF32A6X3yMb8PBSr2lxGQtFuL9olYcUjGPJl0DziA=
+  on:
+    tags: true
