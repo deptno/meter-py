@@ -1,6 +1,6 @@
 {
   "name": "meter-py",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "square meter to py, py to square meter, 제곱미터 평 변환, 제곱 미터 평 변환, 평 미터 변환, 평 제곱미터 변환",
   "main": "index.js",
   "repository": {
