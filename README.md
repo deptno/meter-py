@@ -1,6 +1,5 @@
-meter-py
-===
-[![Build Status](https://travis-ci.org/deptno/meter-py.svg?branch=master)](https://travis-ci.org/deptno/meter-py)
+# meter-py [![Build Status](https://travis-ci.org/deptno/meter-py.svg?branch=master)](https://travis-ci.org/deptno/meter-py)
+[![npm](https://img.shields.io/npm/dt/meter-py.svg?style=for-the-badge)](https://www.npmjs.com/package/meter-py)
 
 ## API
 
